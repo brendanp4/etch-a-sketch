@@ -1,8 +1,14 @@
-for(i = 0; i < 16; i++){
-    for(j = 0; j < 16; j++){
-        $("#gameBox").append("<div class=sketch></div>")
-    }   
-}
+// for(i = 0; i < 16; i++){
+//     for(j = 0; j < 16; j++){
+//         $("#gameBox").append("<div class=sketch></div>")
+//     }   
+// }
+
+for(j = 0; j < 256; j++){
+    $("#gameBox").append("<div class=sketch></div>")
+}   
+
+
 
 $("#resetBtn").click(function(){
     resetGame();
