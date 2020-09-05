@@ -33,5 +33,5 @@ h1 {
 }
 
 .darken {
-    background-color: rgb(146, 140, 140);
+    background-color: rgb(146, 140, 140) !important;
 }
