@@ -11,10 +11,15 @@
     <h1>Etch-a-Sketch</h1>
     <button id="resetBtn">Reset</button>
     <form action="">
-        <label for="gridArea">Select grid area:</label>
-        <select name="gridArea" id="gridArea">
-            <option value="256">16x16</option>
+        <select name="color" id="color">
+            <option value="greyscale">Greyscale</option>
+            <option value="rainbow">Rainbow</option>
         </select>
+    </form>
+    <form action="">
+        <label for="gridArea">Resize(column count):</label>
+        <input type="text" name="rows" id="gridArea">
+        <button type="button" id="changeGrid">Change</button>
     </form>
 
     <div id="gameBox">
